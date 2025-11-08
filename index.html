@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perika Suvisesh | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root, [data-theme='dark'] {
+        --background: #242423;
+        --text-primary: #e8eddf;
+        --text-secondary: #cfdbd5;
+        --text-tertiary: #a1a1a1;
+        --accent: #ff006e;
+        --accent-dark: rgba(255, 0, 110, 0.1);
+        --card-bg: #333533;
+        --nav-hover: #ff006e;
+        --shadow: rgba(0, 0, 0, 0.4);
+        --scroll-thumb: #333533;
+        --scroll-track: #242423;
+      }
+      [data-theme='light'] {
+        --background: #e8eddf;
+        --text-primary: #242423;
+        --text-secondary: #333533;
+        --text-tertiary: #5f5f5f;
+        --accent: #ff006e;
+        --accent-dark: rgba(255, 0, 110, 0.1);
+        --card-bg: #ffffff;
+        --nav-hover: #ff006e;
+        --shadow: rgba(0, 0, 0, 0.1);
+        --scroll-thumb: #cfdbd5;
+        --scroll-track: #e8eddf;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--background);
+        color: var(--text-secondary);
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--scroll-track);
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: var(--scroll-thumb);
+        border-radius: 10px;
+        border: 3px solid var(--scroll-track);
+      }
+      .custom-cursor {
+        mix-blend-mode: difference;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.3.18"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
